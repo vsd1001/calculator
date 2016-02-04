@@ -32,10 +32,10 @@ function runPoint()
 function runPercent()
 	{document.frm.rest.value += "%";}
 function runMultiply()
-	{document.frm.rest.value += "x";}
+	{document.frm.rest.value += " * ";}
 
 	function runClear()
-	{document.frm.rest.value += " ";}
+	{document.frm.rest.value = "";}
 
 
 function evalu()
